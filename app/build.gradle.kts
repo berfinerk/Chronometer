@@ -6,6 +6,10 @@ plugins {
 android {
     namespace = "com.example.chronometer"
     compileSdk = 35
+        buildFeatures {
+            viewBinding = true
+
+    }
 
     defaultConfig {
         applicationId = "com.example.chronometer"
